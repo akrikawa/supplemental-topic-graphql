@@ -1,5 +1,6 @@
 import { buildSchema } from 'graphql';
 
+// GraphQL schema.
 const schema = buildSchema(`
   type Product {
     id: ID
